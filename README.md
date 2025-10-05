@@ -12,5 +12,4 @@ This project contains multiple views to showcase the skills acquired during the 
 ## Installation
 1. Clone the repo:
 ```bash
-git clone [https://https://github.com/mohitsinghsengar98/MySwiftUILearnings.git
-](https://github.com/mohitsinghsengar98/MySwiftUILearnings.git)
+git clone https://github.com/mohitsinghsengar98/MySwiftUILearnings.git
