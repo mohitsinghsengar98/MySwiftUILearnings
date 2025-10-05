@@ -1,0 +1,15 @@
+{
+  "originHash" : "ae6a9f9fc9dd1e1c56e2b1030263b6c8176522744060e5ff8d8c9e622859c3ec",
+  "pins" : [
+    {
+      "identity" : "counterlibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mohitsinghsengar98/CounterLibrary.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bd590e984d9de525d41e06aff667e24faab506a0"
+      }
+    }
+  ],
+  "version" : 3
+}

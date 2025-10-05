@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EB750D6F2E92EBBE008F1E59 /* CounterLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = EB750D6E2E92EBBE008F1E59 /* CounterLibrary */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EB750D412E92D8F4008F1E59 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB750D6F2E92EBBE008F1E59 /* CounterLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = SwiftUILearning;
 			packageProductDependencies = (
+				EB750D6E2E92EBBE008F1E59 /* CounterLibrary */,
 			);
 			productName = SwiftUILearning;
 			productReference = EB750D412E92D8F4008F1E59 /* SwiftUILearning.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = EB750D382E92D8F4008F1E59;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EB750D6D2E92EBBE008F1E59 /* XCRemoteSwiftPackageReference "CounterLibrary" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EB750D422E92D8F4008F1E59 /* Products */;
 			projectDirPath = "";
@@ -332,6 +341,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB750D6D2E92EBBE008F1E59 /* XCRemoteSwiftPackageReference "CounterLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mohitsinghsengar98/CounterLibrary.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB750D6E2E92EBBE008F1E59 /* CounterLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB750D6D2E92EBBE008F1E59 /* XCRemoteSwiftPackageReference "CounterLibrary" */;
+			productName = CounterLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB750D392E92D8F4008F1E59 /* Project object */;
 }
